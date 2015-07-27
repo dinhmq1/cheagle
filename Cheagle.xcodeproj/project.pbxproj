@@ -15,6 +15,7 @@
 		27009C671B66F644005A2BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27009C661B66F644005A2BBD /* Images.xcassets */; };
 		27009C6A1B66F644005A2BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27009C681B66F644005A2BBD /* LaunchScreen.xib */; };
 		27009C761B66F644005A2BBD /* CheagleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27009C751B66F644005A2BBD /* CheagleTests.swift */; };
+		2734950E1B66F6EC006DD2DB /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734950D1B66F6EC006DD2DB /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		27009C6F1B66F644005A2BBD /* CheagleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheagleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27009C741B66F644005A2BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27009C751B66F644005A2BBD /* CheagleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheagleTests.swift; sourceTree = "<group>"; };
+		2734950D1B66F6EC006DD2DB /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				27009C661B66F644005A2BBD /* Images.xcassets */,
 				27009C681B66F644005A2BBD /* LaunchScreen.xib */,
 				27009C591B66F644005A2BBD /* Supporting Files */,
+				2734950D1B66F6EC006DD2DB /* test.swift */,
 			);
 			path = Cheagle;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27009C601B66F644005A2BBD /* GameScene.swift in Sources */,
+				2734950E1B66F6EC006DD2DB /* test.swift in Sources */,
 				27009C621B66F644005A2BBD /* GameViewController.swift in Sources */,
 				27009C5C1B66F644005A2BBD /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +423,7 @@
 				27009C7B1B66F644005A2BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27009C7C1B66F644005A2BBD /* Build configuration list for PBXNativeTarget "CheagleTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				27009C7E1B66F644005A2BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
