@@ -15,7 +15,11 @@
 		27009C671B66F644005A2BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27009C661B66F644005A2BBD /* Images.xcassets */; };
 		27009C6A1B66F644005A2BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27009C681B66F644005A2BBD /* LaunchScreen.xib */; };
 		27009C761B66F644005A2BBD /* CheagleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27009C751B66F644005A2BBD /* CheagleTests.swift */; };
-		2734950E1B66F6EC006DD2DB /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734950D1B66F6EC006DD2DB /* test.swift */; };
+		273495101B66F7EE006DD2DB /* EagleFlyingImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2734950F1B66F7EE006DD2DB /* EagleFlyingImages.atlas */; };
+		273495141B66F837006DD2DB /* EnemyFlyingBombImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 273495131B66F837006DD2DB /* EnemyFlyingBombImages.atlas */; };
+		273495161B66F842006DD2DB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273495151B66F842006DD2DB /* UIColorExtension.swift */; };
+		273495181B66F85F006DD2DB /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273495171B66F85F006DD2DB /* PlayScene.swift */; };
+		2734951A1B66F8B7006DD2DB /* EnemyTheDarkImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 273495191B66F8B7006DD2DB /* EnemyTheDarkImages.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,11 @@
 		27009C6F1B66F644005A2BBD /* CheagleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheagleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27009C741B66F644005A2BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27009C751B66F644005A2BBD /* CheagleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheagleTests.swift; sourceTree = "<group>"; };
-		2734950D1B66F6EC006DD2DB /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		2734950F1B66F7EE006DD2DB /* EagleFlyingImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EagleFlyingImages.atlas; sourceTree = "<group>"; };
+		273495131B66F837006DD2DB /* EnemyFlyingBombImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EnemyFlyingBombImages.atlas; sourceTree = "<group>"; };
+		273495151B66F842006DD2DB /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		273495171B66F85F006DD2DB /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		273495191B66F8B7006DD2DB /* EnemyTheDarkImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = EnemyTheDarkImages.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +96,14 @@
 				27009C5F1B66F644005A2BBD /* GameScene.swift */,
 				27009C611B66F644005A2BBD /* GameViewController.swift */,
 				27009C631B66F644005A2BBD /* Main.storyboard */,
+				273495191B66F8B7006DD2DB /* EnemyTheDarkImages.atlas */,
+				273495131B66F837006DD2DB /* EnemyFlyingBombImages.atlas */,
+				2734950F1B66F7EE006DD2DB /* EagleFlyingImages.atlas */,
 				27009C661B66F644005A2BBD /* Images.xcassets */,
 				27009C681B66F644005A2BBD /* LaunchScreen.xib */,
 				27009C591B66F644005A2BBD /* Supporting Files */,
-				2734950D1B66F6EC006DD2DB /* test.swift */,
+				273495151B66F842006DD2DB /* UIColorExtension.swift */,
+				273495171B66F85F006DD2DB /* PlayScene.swift */,
 			);
 			path = Cheagle;
 			sourceTree = "<group>";
@@ -201,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273495101B66F7EE006DD2DB /* EagleFlyingImages.atlas in Resources */,
 				27009C6A1B66F644005A2BBD /* LaunchScreen.xib in Resources */,
 				27009C671B66F644005A2BBD /* Images.xcassets in Resources */,
 				27009C5E1B66F644005A2BBD /* GameScene.sks in Resources */,
+				2734951A1B66F8B7006DD2DB /* EnemyTheDarkImages.atlas in Resources */,
+				273495141B66F837006DD2DB /* EnemyFlyingBombImages.atlas in Resources */,
 				27009C651B66F644005A2BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27009C601B66F644005A2BBD /* GameScene.swift in Sources */,
-				2734950E1B66F6EC006DD2DB /* test.swift in Sources */,
+				273495181B66F85F006DD2DB /* PlayScene.swift in Sources */,
+				273495161B66F842006DD2DB /* UIColorExtension.swift in Sources */,
 				27009C621B66F644005A2BBD /* GameViewController.swift in Sources */,
 				27009C5C1B66F644005A2BBD /* AppDelegate.swift in Sources */,
 			);
